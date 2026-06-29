@@ -1,0 +1,14 @@
+{
+  "name": "sabibook-server",
+  "version": "1.0.0",
+  "description": "SabiBook payment webhook server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "firebase-admin": "^11.11.0"
+  }
+}
